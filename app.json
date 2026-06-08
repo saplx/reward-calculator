@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
     "ios": { "supportsTablet": true },
-    "android": { "adaptiveIcon": { "backgroundColor": "#2563eb" } }
+    "android": { "adaptiveIcon": { "backgroundColor": "#2563eb" } },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
   }
 }
